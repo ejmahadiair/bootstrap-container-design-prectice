@@ -1,0 +1,31 @@
+.container {
+  border: 5px solid black;
+  transition: 1s ease;
+}
+.row {
+  border: 2px solid green;
+  transition: 1s ease;
+}
+
+.m-1 {
+  border: 1px solid red;
+  width: 312px;
+  height: 280px;
+  transition: 1s ease;
+}
+
+@media screen and (max-width: 1400px) {
+  .m-1 {
+    width: 359px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .m-1 {
+    width: 453px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .m-1 {
+    width: 674px;
+  }
+}
